@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--reset 重置默认样式-->
+    <link rel="stylesheet" href="css/global.css"/>
+    <!--我们写页面结构样式需要的css样式表-->
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!-- loading -->
+<div id="loading">
+    <p id="lodingnum">0%</p>
+</div>
+<!-- /loading -->
+
+
+<!--</div>-->
+<!--</section>-->
+<!--</section>-->
+<section class="page">
+            <!-- theme -->
+            <!--<div class="theme animinal"></div>-->
+            <!--<div class="theme body"></div>-->
+            <!--<div class="theme dailylife"></div>-->
+            <!--<div class="theme food"></div>-->
+            <!--<div class="theme people"></div>-->
+            <!--<div class="theme number"></div>-->
+            <!--<div class="theme color"></div>-->
+            <!--<div class="theme traffic"></div>-->
+            <div class="theme action"></div>
+            <!--<div class="theme natrual"></div>-->
+            <!--<div class="theme contrast"></div>-->
+
+           <div class="button_right">
+               <img class="toup" src="images/btn_up.png">
+               <!--<img class="tonav" src="images/btn_home.png">-->
+           </div>
+</section>
+
+<!--ejs 插件-->
+<script charset="utf-8" type="text/javascript" src="js/ejs.min.js"></script>
+<!--造模版-->
+<script charset="utf-8" type="text/template" id="contentTemplate">
+    <%$.each(contentTepData,function(index,item){%>
+         <%if (item.type == 'title' ){%>
+         <%<!--标题-->%>
+         <div class="title">
+             <img class="title_icon" src="<%=item.icon_src%>">
+             <span style="font-size:<%=item.fontsize%>"><%=item.content%></span>
+         </div>
+         <%<!--视频-->%>
+         <%} else if (item.type == 'video' ) {%>
+         <div class="video">
+             <div class="bluecolor">
+                 <span>视频</span>
+             </div>
+             <div class="videobox">
+                 <video src="<%=item.src%>" poster="images/bg_moive.png" loop="loop" controls></video>
+             </div>
+         </div>
+         <%<!--句型-->%>
+        <%} else if (item.type == 'pattern' ) {%>
+         <div class="pattern">
+             <div class="bluecolor">
+                 <span>核心句型</span>
+             </div>
+             <div class="patternbox"><%-item.content%></div>
+         </div>
+         <%<!--歌词-->%>
+         <%} else if (item.type == 'song' ) {%>
+           <div class="song">
+              <div class="bluecolor">
+                 <span>歌词</span>
+              </div>
+           <div class="songbox"><%-item.content%></div>
+        </div>
+        <%} else if (item.type == 'recommend' ) {%>
+        <div class="recommend">
+            <div class="bluecolor">
+                <span>故事简介</span>
+            </div>
+            <div class="recommendbox"><%-item.content%></div>
+        </div>
+        <%}%>
+         <%})%>
+</script>
+
+<!--swiper 插件的js-->
+<script charset="utf-8" type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script src="js/jquery.imgpreload.min.js"></script>
+<script src="js/utils.js"></script>
+<script charset="utf-8" type="text/javascript">
+    function Rem() {
+        var docEl = document.documentElement,
+            oSize = docEl.clientWidth / 7.5;
+        if (oSize > 100) {
+            oSize = 100;
+        }
+        docEl.style.fontSize = oSize + 'px';
+    }
+    window.addEventListener('resize', Rem, false);
+    Rem();
+
+//    //nav
+//    $(".nav img").unbind("click").click(function(){
+//        $('.tonav').show();
+//        $(".nav").hide();
+//        var dataIden = $(this).attr("dash");
+//        switch(dataIden){
+//            case "animinal":
+//                $('.animinal').show();
+//                break;
+//            case "body":
+//                $('.body').show();
+//                break;
+//            case "dailylife":
+//                $('.dailylife').show();
+//                break;
+//            case "food":
+//                $('.food').show();
+//                break;
+//            case "people":
+//                $('.people').show();
+//                break;
+//            case "number":
+//                $('.number').show();
+//                break;
+//            case "color":
+//                $('.color').show();
+//                break;
+//            case "traffic":
+//                $('.traffic').show();
+//                break;
+//            case "action":
+//                $('.action').show();
+//                break;
+//            case "contrast":
+//                $('.contrast').show();
+//                break;
+//            case "natrual":
+//                $('.natrual').show();
+//                break;
+//        }
+//    })
+    $('.action').show();
+
+
+
+    //toup
+    var btn = document.getElementsByClassName('toup')[0]; // 按钮
+    var canScroll = true;
+    window.onscroll = fn;
+    function fn(){
+        if(canScroll){
+            var scrolllTop = utils.win('scrollTop');
+            var winHeight = utils.win('clientHeight');
+            if(scrolllTop > winHeight){
+                utils.setCss(btn,'display','block');
+            }
+        }
+    }
+
+    btn.onclick = function (){
+        window.clearInterval(btn.timer);
+        btn.timer = window.setInterval(function (){
+            var curSrollTop = utils.win('scrollTop');
+            if(curSrollTop <= 0){
+                window.clearInterval(btn.timer);
+                canScroll = true;
+                return;
+            }
+            curSrollTop -= 15;
+            utils.win('scrollTop',curSrollTop);
+        },10);
+
+        this.style.display = 'none';
+        canScroll = false;
+    }
+
+    //通过ajax获取data数据
+    $.ajax({
+        url:'json/data.json',
+        type:'get',
+        dataType:'json',
+        jsonp:'callback',
+        success:bindHTML
+    })
+
+
+    /*ejs*/
+  //绑定页面结构数据
+    function bindHTML(data){
+        console.log(data[0].lessoncontent);
+     console.log(data)   //bg text audio video game 五种类型
+        for(var i=0;i<data.length;i++) {
+//            var animinalcontent = data[0].lessoncontent;
+//            var bodycontent = data[1].lessoncontent;
+//            var dailylifecontent = data[2].lessoncontent;
+//            var foodcontent = data[3].lessoncontent;
+//            var peoplecontent = data[4].lessoncontent;
+//            var numbercontent = data[5].lessoncontent;
+//            var colorcontent = data[6].lessoncontent;
+//            var trafficcontent = data[7].lessoncontent;
+            var actioncontent = data[8].lessoncontent;
+//            var natrualcontent = data[9].lessoncontent;
+//            var contrastcontent = data[10].lessoncontent;
+        }
+
+
+
+
+//        _animinalcontent = animinalcontent;
+//        _bodycontent = bodycontent;
+//        _dailylifecontent = dailylifecontent;
+//        _foodcontent = foodcontent;
+//        _peoplecontent = peoplecontent;
+//        _numbercontent = numbercontent;
+//        _colorcontent = colorcontent;
+//        _trafficcontent = trafficcontent;
+        _actioncontent = actioncontent;
+//        _natrualcontent = natrualcontent;
+//        _contrastcontent = contrastcontent;
+
+
+
+
+//        $('.animinal').html(ejs.render($('#contentTemplate').html(),{contentTepData:_animinalcontent}));
+//        $('.body').html(ejs.render($('#contentTemplate').html(),{contentTepData:_bodycontent}));
+//        $('.dailylife').html(ejs.render($('#contentTemplate').html(),{contentTepData:_dailylifecontent}));
+//        $('.food').html(ejs.render($('#contentTemplate').html(),{contentTepData:_foodcontent}));
+//        $('.people').html(ejs.render($('#contentTemplate').html(),{contentTepData:_peoplecontent}));
+//        $('.number').html(ejs.render($('#contentTemplate').html(),{contentTepData:_numbercontent}));
+//        $('.color').html(ejs.render($('#contentTemplate').html(),{contentTepData:_colorcontent}));
+//        $('.traffic').html(ejs.render($('#contentTemplate').html(),{contentTepData:_trafficcontent}));
+        $('.action').html(ejs.render($('#contentTemplate').html(),{contentTepData:_actioncontent}));
+//        $('.contrast').html(ejs.render($('#contentTemplate').html(),{contentTepData:_contrastcontent}));
+//        $('.natrual').html(ejs.render($('#contentTemplate').html(),{contentTepData:_natrualcontent}));
+    }
+
+
+
+
+
+    //预加载系统
+    var num = 0;
+    var the_images = [
+        "http://live.babyfs.cn/web/H5/wjy/drawflowers20170303/loading.gif",
+        "images/bg_moive.png",
+        "images/icon_contrast.png",
+        "images/nav_action.png",
+        "images/nav_food.png",
+        "images/btn_home.png",
+        "images/icon_dailylife.png ",
+        "images/nav_animinal.png",
+        "images/nav_natrual.png",
+        "images/btn_up.png",
+        "images/icon_food.png ",
+        "images/nav_bg.jpg",
+        "images/nav_number.png",
+        "images/icon_action.png",
+        "images/icon_natrual.png",
+        "images/nav_body.png",
+        "images/nav_people.png",
+        "images/icon_animinal.png",
+        "images/icon_number.png",
+        "images/nav_color.png",
+        "images/nav_traffic.png",
+        "images/icon_body.png",
+        "images/icon_people.png",
+        "images/nav_contrast.png",
+        "images/icon_color.png",
+        "images/icon_traffic.png",
+        "images/nav_dailylife.png"
+
+    ];
+    //console.log(the_images);
+
+    jQuery.imgpreload(the_images,
+        {
+            each: function () {
+                var status = $(this).data('loaded') ? 'success' : 'error';
+                if (status == "success") {
+                    ++num;
+                    $("#lodingnum").html((num / the_images.length * 100).toFixed(0) + "%");
+                }
+            },
+            all: function () {
+                $("#lodingnum").html("100%");
+                setTimeout(function () {
+                    document.getElementById('loading').style.display = "none";
+                }, 300)
+            }
+        });
+</script>
+
+</body>
+</html>

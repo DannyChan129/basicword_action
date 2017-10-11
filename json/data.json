@@ -1,0 +1,685 @@
+[
+    {
+        "_comment":"动物",
+        "id":1,
+        "lessoncontent": [
+            {
+                "_comment":"动物第一节课",
+                "type": "title",
+                "content": "1. I Have a Pet",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_animinal.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/835645dbe10d4671a6d3b7026f03f317/Ihaveapet.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "I have a…我有一只（一个）…… He/She says …… 他/她说 …… </br>这里是在描述宠物，第二句的He/She是一个英语当中很常见的拟人的称呼方式。当然其实也可以直接用表示动物的它 It。</br>He says这个say本来是说的意思，但是我们在描述动物叫声的时候也经常用这个词。比如Dogs say woof woof woof. 当然也可以说Dogs go woof woof woof."
+            },
+            {
+                "type": "song",
+                "content": "Do you have a pet? 你有宠物吗？</br>Yes, I have a dog. 是的，我有一只狗。</br>I have a pet.  我有一个宠物。</br>He is a dog. 他是一只狗。</br>And he says, \"Woof, woof, woof, woof, woof. Woof, woof.\" 他会“汪、汪、汪、汪、汪，汪、汪”地叫。</br>I have a cat. 我有一只猫。</br>I have a pet. 我有一个宠物。</br>She is a cat. 她是一只猫。</br>And she says, \"Meow, meow, meow, meow, meow. Meow,meow.\" 她会“喵~喵~喵~喵~喵，喵~喵”地叫。</br>I have a mouse. 我有一只老鼠。</br>I have a pet. 我有一个宠物。</br>He is a mouse. 他是一只老鼠。</br>And he says, \"Squeak, squeak, squeak, squeak, squeak. Squeak,squeak.\" 他会“吱、吱、吱、吱、吱，吱、吱”地叫。</br>Woof,woof. 汪,汪。</br>Meow meow. 喵,喵。</br>Squeak squeak. 吱,吱。</br>I have a bird. 我有一只鸟。</br>I have a pet. 我有一个宠物。</br>He is a bird. 他是一只鸟。</br>And he says, \"Tweet, tweet, tweet, tweet, tweet. Tweet,tweet.\" 他会“唧、唧、唧、唧、唧，唧、唧” 地叫。</br>I have a fish. 我有一条鱼。</br>I have a pet. 我有一个宠物。</br>She is a fish. 她是一条鱼。</br>And she says, \"Glub, glub, glub, glub, glub. Glub,glub.\" 她会“咕噜~咕噜~咕噜~咕噜~咕噜，咕噜~咕噜”地叫。</br>I have a lion. 我有一只狮子。</br>A lion? I have a pet. 一只狮子？我有一个宠物。</br>He is a lion. 他是一只狮子。</br>And he says, \"Roar, roar, roar, roar, roar. Roar roar.\" 他会“嗷、嗷、嗷、嗷、嗷，嗷、嗷”地叫。</br>Tweet tweet. 唧唧</br>Glub,glub. 咕噜咕噜</br>ROAR! 嗷！"
+            },
+            {
+                "_comment":"动物第二节课",
+                "type": "title",
+                "content": "2. Going to the Zoo",
+                "fontsize":".55rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_animinal.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/69e7baa864f6407c9eaa208baf0eb508/goingtothezoo.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "Who’s in the zoo? 谁在动物园里？What does the monkey say? 猴子是怎么叫的？</br>我们正好有一张海报就是在动物园的场景哦~爸爸妈妈可以带着宝宝练习起来：Who’s in the zoo? "
+            },
+            {
+                "type": "song",
+                "content": "I love going to the zoo. 我爱去动物园。</br>How about your? 你呢？</br>Zoo, zoo, who’s in the zoo? 动物园，动物园，谁在动物园呢？</br>Zoo, zoo, who’s in the zoo? 动物园，动物园，谁在动物园呢？</br>Zoo, zoo, who’s in the zoo? 动物园，动物园，谁在动物园呢？</br>Who’s in the zoo to visit? 去动物园看谁呢？</br>Hey,come on. Let’s go see what the monkeys are doing. 嘿，来吧。我们去动物园看看猴子正在干什么？</br>What does the monkey say? 猴子说了什么？</br>What does the monkey say? 猴子说了什么？</br>What does the monkey say? 猴子说了什么？</br>When you go to the zoo to visit. 当你去动物园参观的时候。</br>Oh,look at that big animal over there. That looks like a lion. 噢，看那边那只好大的动物。看上去像只狮子。</br>What does the lion say? 狮子说了什么？</br>What does the lion say? 狮子说了什么？</br>What does the lion say? 狮子说了什么？</br>When you go to the zoo to visit? 当你去动物园参观的时候。</br>Hey what kind of animal is that out in the water? 嘿，那个露出水面的是什么动物？</br>I know. It's a seal. 我知道，那是一只海豹。</br>What does the seal say? 海豹说了什么？</br>What does the seal say? 海豹说了什么？</br>What does the seal say? 海豹说了什么？</br>When you go to the zoo to visit? 当你去动物园参观的时候。</br>Hey there’s a bird on the branch. What does he say? Let’s see. 嘿，树枝上有一只鸟。他说了什么？我们去看看。</br>What does the parrot say? 鹦鹉说了什么？</br>What does the parrot say? 鹦鹉说了什么？</br>What does the parrot say? 鹦鹉说了什么？</br>When you go to the zoo to visit? 当你去动物园参观的时候。</br>Hohoho,what’s that? I know what that is. It's a snake!  呵呵呵，那是什么？我知道那是什么。那是一条蛇！</br>What does the snake say? 蛇说了什么？</br>What does the snake say? 蛇说了什么？</br>What does the snake say? 蛇说了什么？</br>When you go to the zoo to visit? 当你去动物园参观的时候。</br>Zoo, zoo, who’s in the zoo? 动物园，动物园，谁在动物园呢？</br>Zoo, zoo, who’s in the zoo? 动物园，动物园，谁在动物园呢？</br>Zoo, zoo, who’s in the zoo? 动物园，动物园，谁在动物园呢？</br>Who’s in the zoo to visit? 去动物园看谁呢？"
+            },
+            {
+                "_comment":"动物第三节课",
+                "type": "title",
+                "fontsize":".25rem",
+                "content": "3. Brown Bear,Brown Bear,What Do You See",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_animinal.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/0ea7c94798d84008a967dcc694b7e5b8/brownbear.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "What do you see?</br>这本大名鼎鼎的书，相信很多人都已经知道了。非常适合用于动物的学习、巩固，以及颜色的学习。附赠给大家一个这首歌的舞蹈动作哦~"
+            },
+            {
+                "type": "song",
+                "content": "Brown bear, brown bear 棕熊，棕熊</br>What do you see? 你看见了什么</br>I see a red bird 我看见一只红色的鸟</br>Looking at me. 正看着我</br>Red bird, red bird 红鸟，红鸟</br>What do you see? 你看见了什么</br>I see a yellow duck 我看见一只黄色的鸭子</br>Looking at me. 正看着我</br>Yellow duck, yellow duck 黄鸭子，黄鸭子</br>What do you see? 你看见了什么</br>I see a blue horse 我看见一匹蓝色的马</br>Looking at me. 正看着我</br>Blue horse, blue horse 蓝马，蓝马</br>What do you see? 你看见了什么</br>I see a green frog 我看见一只绿色的青蛙</br>Looking at me. 正看着我</br>Green frog, green frog 绿青蛙，绿青蛙</br>What do you see? 你看见了什么</br>I see a purple cat 我看见一只紫色的猫</br>Looking at me. 正看着我</br>Purple cat, purple cat 紫猫，紫猫</br>What do you see? 你看见了什么</br>I see a white dog 我看见一只白色的狗</br>Looking at me. 正看着我</br>White dog, white dog 白狗，白狗</br>What do you see? 你看见了什么</br>I see a black sheep 我看见一只黑色的羊</br>Looking at me. 正看着我</br>Black sheep, black sheep 黑羊，黑羊</br>What do you see? 你看见了什么</br>I see a gold fish 我看见一条金鱼</br>Looking at me. 正看着我</br>Gold fish, gold fish 金鱼，金鱼</br>What do you see? 你看见了什么</br>I see a mother 我看见一个妈妈</br>Looking at me. 正看着我</br>Mother, mother 妈妈，妈妈</br>What do you see?  你看见了什么</br>I see beautiful children 我看见可爱的孩子们</br>Looking at me. 正看着我</br>Children, children 孩子们，孩子们</br>What do you see?  你们看见了什么</br>We see a brown bear 我们看见一只棕熊</br>A red bird 一只红鸟</br>A yellow duck 一只黄鸭子</br>A blue horse 一匹蓝马</br>A green frog 一只绿青蛙</br>A purple cat 一只紫猫</br>A white dog 一只白狗</br>A black sheep 一只黑羊</br>A gold fish 一条金鱼</br>And a mother looking at us 还有一个妈妈，正看着我们</br>That's what we see 这就是我们看见的"
+            },
+            {
+                "_comment":"动物第四节课",
+                "type": "title",
+                "fontsize":".45rem",
+                "content": "4. Baa Baa Black Sheep",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_animinal.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/ed402db3f14f41a5b5593ecbd1112e93/baabaablacksheep.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "One for somebody, one for somebody, and one for somebody （一个给xxx，一个给xxx，一个给xxx）</br>比如I have three apples. One for mom, one for dad, and one for me. 我有3个苹果，一个给妈妈，一个给爸爸，一个给我。</br>当然这首歌最重要的还是帮助大家巩固一下sheep这个词。另外我们再做一点点的扩展， sheep（绵羊）的叫声是baa，但是比较类似于中文的“咩”,这个叫声在英文当中是“meh”，通常是表示山羊（goat）的叫声。"
+            },
+            {
+                "type": "song",
+                "content": "Baa baa black sheep</br>咩咩，黑色的羊</br>Have you any wool</br>你有羊毛吗</br>Yes, sir! Yes, sir!</br>有的先生，有的先生</br>Three bags full</br>满满的三袋</br>One for my master</br>一袋给主人</br>And one for my dame</br>一袋给夫人</br>And one for the little boy</br>一袋给那个小男孩</br>Who lives in the lane</br>他住在小巷里"
+            },
+            {
+                "_comment":"动物第五节课",
+                "type": "title",
+                "fontsize":"",
+                "content": "5. Baby Animals",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_animinal.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/3131f75a2c5d44328ee35baf27d87257/babyanimal.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌是非常著名的儿歌Bingo的改编版。出现了puppy, kitten, bunny, chick这四个词。分别表示小狗、小猫、小兔子、小鸡。不过bunny这个词经常是小孩子称呼兔子的词汇（因为比rabbit好发音，所以很多宝宝把兔子也叫作bunny），当然最常见的还是表示小兔子。</br>There was a baby dog, and puppy was his name-o. 这里单词末尾的o是为了和m拼起来，发出一个很响亮的音，比较方便唱歌。另外也是因为原版的歌曲里面狗的名字叫做Bingo, Bingo和Name-o是押韵的"
+            },
+            {
+                "type": "song",
+                "content": "There was a baby dog, 从前有一只狗宝宝</br>and Puppy was his name-o. 他的名字叫Puppy</br>P-U-P-P-Y,  P-U-P-P-Y,P-U-P-P-Y,</br>and Puppy was his name-o. 他的名字叫Puppy</br>There was a baby cat, 从前有一只猫宝宝</br>and Kitten was his name-o. 他的名字叫Kitten</br>K-I-T-T-E-N,K-I-T-T-E-N, K-I-T-T-E-N,</br>and Kitten was his name-o. 他的名字叫Kitten</br>There was a baby rabbit, 从前有一只兔宝宝</br>and Bunny was his name-o. 他的名字叫Bunny</br>B-U-N-N-Y,B-U-N-N-Y, B-U-N-N-Y,</br>and Bunny was his name-o. 他的名字叫Bunny</br>There was a baby chicken, 从前有一只鸡宝宝</br>and Chick was his name-o. 他的名字叫Chick</br>C-H-I-C-K,C-H-I-C-K,C-H-I-C-K,</br>and Chick was his name-o. 他的名字叫Chick "
+            }
+        ]
+    },
+    {
+        "_comment":"身体",
+        "id":2,
+        "lessoncontent": [
+            {
+                "_comment":"身体第一节课",
+                "type": "title",
+                "content": "1. Head Shoulders Knees and Toes",
+                "fontsize":".3rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_body.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/a59d69e7d45c47f5bd91c36fc3c35000/headshoulderskneestoes.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌真的是“身体部位歌曲之王”。很多的早教中心、培训机构、甚至动画片里面，都能够听到这首歌的声音。学习起来的难度也不大， 一共8个身体部位。第一步：从上到下 head,shoulders,knees,and toes （头、肩膀、膝盖、脚趾）；第二步：从眼睛开始，从外到内画一个圈：eyes,ears,mouth,nose（眼睛、耳朵、嘴巴、鼻子）"
+            },
+            {
+                "type": "song",
+                "content": "Head, shoulders, knees, and toes, 头、肩膀、膝盖和脚趾</br>knees and toes. 膝盖和脚趾</br>Head, shoulders, knees, and toes, 头、肩膀、膝盖和脚趾</br>knees and toes 膝盖和脚趾</br>and eyes and ears and mouth and nose. 还有眼睛、耳朵、嘴巴和鼻子</br>Head, shoulders, knees, and toes, 头、肩膀、膝盖、和脚趾</br>knees and toes. 膝盖和脚趾</br>One more time. 再来一遍"
+            },
+            {
+                "_comment":"身体第二节课",
+                "type": "title",
+                "content": "2. Brush Your Teeth",
+                "fontsize":".5rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_body.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/7af00c1e3417429f9adf894e7d345797/brushourteeth.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌就比较简单啦，主要就是讲怎么刷牙的。我们再来复习一下关键的步骤：</br>Brush up and brush down. Left and right, round and round.</br>上下刷，左右刷，转着圈刷。"
+            },
+            {
+                "type": "song",
+                "content": "First, take your toothbrush. 首先，拿起你的牙刷</br>Next, add a small amount of toothpaste. 然后，挤一点牙膏在上面</br>Now, brush! 现在，开始刷！</br>This is the way we brush our teeth. 我们是这么刷牙的</br>Brush our teeth, brush our teeth. 刷牙、刷牙</br>This is the way we brush our teeth. 我们是这么刷牙的</br>We do it in the morning. 我们在早上刷</br>Brushing up and brushing down. 上面刷刷、下面刷刷</br>Left and right and round and round. 左边刷刷、右边刷刷，转圈圈，刷一刷</br>A nice white smile will then be found! 就能看到一个洁白漂亮的笑容啦</br>We've brushed really well! 我们刷牙刷得很好呢</br>This is the way we brush our teeth. 我们是这么刷牙的</br>Brush our teeth, brush our teeth. 刷牙、刷牙</br>This is the way we brush our teeth. 我们是这么刷牙的</br>We do it in the evening. 我们在晚上刷牙</br>Brushing left and brushing right. 左边刷刷、右边刷刷</br>Brushing down our teeth are white. 下面刷刷，我们的牙齿白又白</br>Then we say ha goodnight. 然后我们说晚安</br>We've brushed really well! 我们刷牙刷得很好呢</br>"
+            }
+        ]
+    },
+    {
+        "_comment":"日常生活",
+        "id":3,
+        "lessoncontent": [
+            {
+                "_comment":"日常生活第一节课",
+                "type": "title",
+                "content": "1. Clean Up",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/732ddf7d76504a46b283c4e2cf1cfe35/9_cleanup.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "clean up（收拾干净），</br>put away…… 把……收起来</br>爸爸妈妈可以搭配这节词汇课当中的表达，让小朋友们家里的玩具都收起来。养成收纳的习惯是一个非常好的事情。"
+            },
+            {
+                "type": "song",
+                "content": "Clean up, clean up. 打扫、打扫</br>Everybody let's clean up. 大家一起来打扫</br>Clean up, clean up. 打扫、打扫</br>Put your things away. 把你的东西收起来</br>Clean up, clean up, clean up. 打扫、打扫、打扫</br>Put your things away. 把你的东西收起来</br>Pick up your toys. 捡起你的玩具</br>Pick up your books. 捡起你的书</br>Pick up your shoes. 捡起你的鞋子</br>Put your things away. 把你的东西收起来"
+            },
+            {
+                "_comment":"日常生活第二节课",
+                "type": "title",
+                "content": "2. My House(1)",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/417bfce5d4034bb4b8837f8f6bcb5d04/Myhouse.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "这个视频里面用简单清晰的小动画，表示了一下这几个词</br>roof（屋顶）; door（门）;</br>window（窗户）; chimney（烟囱）;</br>sky（天空）;sun（太阳）;</br>cloud（云）;grass（草）;</br>flower（花）;tree（树）。</br>然后补充了两个句型：</br>This is my house. And this is me.</br>这是我的房子。这是我。好多小朋友喜欢画画，或者喜欢玩乐高，爸爸妈妈可以选择一下这里面的单词，来给小朋友再扩展一下常用的词汇。"
+            },
+            {
+                "_comment":"日常生活第三节课",
+                "type": "title",
+                "content": "3. My House(2)",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/974cf4eee21e42a081717747626ff721/Myhouse(2).mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "这首儿歌完美的复习了这四个词：</br>living room, bedroom, bathroom, kitchen"
+            },
+            {
+                "type": "song",
+                "content": "Sister's watching TV in the living room. 姐姐正在客厅里看电视</br>Mommy's reading a book in the bedroom. 妈妈正在卧室里看书</br>Brother's taking a shower in the bathroom. 哥哥正在浴室里洗澡</br>Daddy's cooking dinner in the kitchen. 爸爸正在厨房里做晚饭"
+            },
+            {
+                "_comment":"日常生活第四节课",
+                "type": "title",
+                "content": "4. Furniture",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/1ff9d10fb0324b5b9391a8311a511daf/12_Furniture-Kids Education.mp4"
+            },
+            {
+                "type":"pattern",
+                "content":"这个词汇小课堂里面出现了很多我们学过的单词，也进行了一些扩展。 想给大家稍微再强调两个词: lamp表示灯的时候前面时不时都会加一个“限定”的词汇，比如bedside lamp，床头灯； desk/table lamp, 书桌上的灯—通常我们说台灯。</br>第二个就是couch和sofa这两个词都可以表示沙发。基本上可以混着用，虽然，严格来讲这两个词有一些些区别。通常来讲sofa更多的表示旁边有扶手，不适合于躺着的，相对更贵一点的，couch严格意义来讲是比较适合于躺的，更普遍的，但是其实很多人都混着用了。在英国，sofa用得更多一点，在美国，couch相对用得更多有点。</br>table 桌子, computer 电脑,</br>chair 椅子, telephone 电话,</br>painting 油画, bed 床,</br>television 电视, lamp 台灯,</br>sofa 沙发"
+            },
+            {
+                "_comment":"日常生活第五节课",
+                "type": "title",
+                "content": "5. It's Time to Clean Up",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/66ce01bd2b964eed8776f7b286eca4be/CleanupSong.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "It's time to clean up. It's time to tidy up.</br>tidy本身作为形容词的话可以表示整洁的。 这里是当成动词来用， clean up和tidy up其实是同样的意思。就是表示收拾干净，收拾好。第二个很好用的句子就是：</br>I like to … and when I'm done, it's time to tidy up/clean up.</br>我喜欢xxx，当我做完了，我喜欢把东西收拾好。</br>xxx的位置可以改成play玩; read阅读; draw画画; eat吃饭。"
+            },
+            {
+                "type":"song",
+                "content":"Every time it’s time to go. 每一次要走的时候</br>There is one thing you should know. 有一件事你要知道</br>It's time to clean up! 打扫的时间到啦</br>Time to tidy up! 清理的时间到啦</br>Before you're ready to walk away. 你准备走开之前</br>There is one thing you should say. 你应该说一件事</br>It's time to clean up! 打扫的时间到啦</br>Time to tidy up! 清理的时间到啦</br>I like to play and when I'm done. 我喜欢玩，当我玩完了</br>It's time to clean up! 打扫的时间到啦</br>I like to read and when I’m done. 我喜欢看书，当我看完了</br>It's time to tidy up! 清理的时间到啦</br>I like to eat when I'm done. 我喜欢吃，当我吃完了</br>It's time to clean up! 打扫的时间到啦</br>I like to draw when I'm done. 我喜欢画画，当我画完了</br>It's time to tidy up! 清理的时间到啦</br>Put the toys away! 把玩具收起来</br>Put the books away! 把书收起来</br>Put the crayons away! 把蜡笔收起来</br>It's time to clean up! 打扫的时间到啦</br>Put the plates away! 把盘子收起来</br>Put the cups away! 把杯子收起来</br>Put the snacks away! 把零食收起来</br>It's time to tidy up! 清理的时间到啦</br>I like to build and when I'm done. 我喜欢搭积木，当我搭好了</br>It's time to clean up! 打扫的时间到啦</br>I like to glue and when I'm done. 我喜欢粘东西，当我粘完了</br>It's time to tidy up! 打扫的时间到啦</br>I like to cut and when I'm done. 我喜欢剪纸，当我剪完了</br>It's time to clean up! 打扫的时间到啦</br>I like to cook and when I'm done. 我喜欢做饭，当我做完了</br>It's time to tidy up! 清理的时间到啦</br>Put the blocks away! 把积木收起来</br>Put the glue away! 把胶水收起来</br>Put the sheets away! 把纸收起来</br>It's time to clean up! 打扫的时间到啦</br>Put the scissors away! 把剪刀收起来</br>Put the pots away! 把锅收起来</br>Put the pans away! 把平底锅收起来</br>It's time to tidy up! 清理的时间到啦"
+            },
+            {
+                "_comment":"日常生活第六节课",
+                "type": "title",
+                "content": "6. Put on Your Shoes",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/ad684ad1ff614f11b1f9abc824440b4c/Putonyourshoes.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "Put on xxx，把…穿上。</br>也可以说put xxx on 但是如果put和on中间是it或者是them的话，就必须用put it on或者put them on的语序。</br>另外一个和穿相关的词是wear，wear表示穿着（就是已经穿在身上了），put on表示穿衣服这个动作。wear经常也是用于进行时态：</br>I'm wearing a coat.</br>我穿着一件外套。"
+            },
+            {
+                "type":"song",
+                "content":"Put on your shoes, your shoes, your shoes.</br>Put on your shoes, your shoes, your shoes.</br>Put on your shoes</br>Let's go outside.</br>Hurry up. Hurry up. Hurry hurry up!</br>穿上你的鞋子，我们出去，快一点。</br>第二段是 jacket（外套）；第三段是scarf（围巾）；第四段是hat（帽子）"
+            },
+            {
+                "_comment":"日常生活第七节课",
+                "type": "title",
+                "content": "7. Baby's clothes",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/65c04faf6efa4a57a4d91e337b1012aa/Babysclothes.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "课上讲到put on的时候提到了wear这个词，今天我们的重点就是再让小朋友接触一下wear这个词。虽然我们本身的课程重点是放在衣物上面的，但是要学习这些单词，还是需要给小朋友一个真实的语境可以接触到和他们搭配的句型的。</br>核心句型：xx is wearing something."
+            },
+            {
+                "type":"song",
+                "content":"Baby's wearing a red hat, red hat, red hat 宝宝戴着红帽子</br>Baby's wearing a red hat, all day long 宝宝戴着红帽子，一整天</br>Baby's wearing blue socks, blue socks, blue socks 宝宝穿着蓝袜子</br>Baby's wearing blue socks, all day long 宝宝穿着蓝袜子，一整天"
+            },
+            {
+                "_comment":"日常生活第八节课",
+                "type": "title",
+                "content": "8.Splish Splash in the Bath",
+                "fontsize":".4rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_dailylife.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/673d0408b9e54bcca8f0a8c9c18ed311/34_Splishsplash.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "这首歌里有一个重复了很多遍的句子：</br>I love to splish splash in the bathtub with you</br>我喜欢在洗澡的时候跟你一起玩水，在给宝宝洗澡的时候可以重复唱这句，还是很好听的。I'm gonna wash your...</br>我要洗洗你的……</br>这句话也非常实用的，平时生活中给宝宝洗脸、洗手、洗脚、洗衣服等等的时候，就可以用到这个句型啦~~"
+            },
+            {
+                "type":"song",
+                "content":"I love to splish splash splish splash in the bath with you. 我喜欢在洗澡的时候跟你一起玩水</br>I love to splish splash splish splash in the bath with you. 我喜欢在洗澡的时候跟你一起玩水</br>I'm gonna wash, wash, wash your back. 我要给你洗洗背</br>I'm gonna wash, wash, wash your front. 我要给你洗洗前面</br>I'm gonna wash, wash, wash your face. 我要给你洗洗脸</br>And your cute little button nose. 还有你那可爱的小鼻子</br>I love to splish splash splish splash in the bath with you. 我喜欢在洗澡的时候跟你一起玩水</br>I love to splish splash splish splash in the bath with you. 我喜欢在洗澡的时候跟你一起玩水</br>I'm gonna scrub-a-dub-dub your arms. 我要给你洗洗胳膊</br>I'm gonna scrub-a-dub-dub your hands. 我要给你洗洗手</br>I'm gonna scrub-a-dub-dub-dub your feet. 我要给你洗洗脚</br>And your cute little twinkle toes. 还有你那可爱的小脚趾"
+            }
+        ]
+    },
+    {
+        "_comment":"食物",
+        "id":4,
+        "lessoncontent": [
+            {
+                "_comment":"食物第一节课",
+                "type": "title",
+                "content": "1. Fruits Song (1)",
+                "fontsize":".55rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_food.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/495c1f24dbe24573954dd16bb9d0a967/25_number1.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "看了这么多的动画片，不知道有的小朋友是不是有点想看看真人啦？我们来试试这个形式小朋友们喜不喜欢。上面一个是兰心珍藏了一段时间的视频，那个时候还叫自己叫做Vivi老师。有些小朋友喜欢看实图的视频，有些小朋友喜欢有真人的讲解。给大家一个新的课程样式试试看。在下面的视频里面，我们要一起学习一下apple, grape(s), banana, pear（苹果、葡萄、香蕉、梨）。"
+            },
+            {
+                "type": "song",
+                "content": "Do you like fruits? 你喜欢水果吗</br>I do! 我喜欢</br>At times I like apples. 有时候我喜欢苹果</br>Sometimes I want some grapes. 有时候我想要些葡萄</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>Look! There's a banana! 看！那儿有一根香蕉</br>Sometimes I want a banana. 有时候我想要一根香蕉</br>Sometimes I want a pear. 有时候我想要一个梨</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>Oh! I really like fruits. 噢！我真的很喜欢水果"
+            },
+            {
+                "_comment":"食物第二节课",
+                "type": "title",
+                "content": "2. Fruits Song (2)",
+                "fontsize":".55rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_food.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/ddda041c4f284503bac6a13aa4d73968/26_number2.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这一次课程要继续学习水果，内容是orange, watermelon, strawberry, peach（橙子、西瓜、草莓、桃子）。看看小朋友们能不能快速有收获哦~~"
+            },
+            {
+                "type": "song",
+                "content": "Do you like fruits? 你喜欢水果吗</br>I do! 我喜欢</br>At times I want an apple. 有时候我想要一个苹果</br>Sometimes I want some grapes. 有时候我想要一些葡萄</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>Look! There's a banana! 看！那儿有一根香蕉</br>Sometimes I want a banana. 有时候我想要一根香蕉</br>Sometimes I want a pear. 有时候我想要一个梨</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>Oh! I really like fruits. 噢！我真的很喜欢水果</br>At times I want an orange. 有时候我喜欢橙子</br>Sometimes a watermelon. 有时候（想要）一个西瓜</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>Look there! Are those strawberries? 看那儿！那些是草莓吗？</br>Sometimes I want strawberries. 有时候我想要一些草莓</br>Sometimes I want a peach. 有时候我想要一个桃子</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>I want some more fruits! 我还想再要一些水果</br>At times I want an apple. 有时候我想要一个苹果</br>Sometimes I want some grapes. 有时候我想要一些葡萄</br>Some days I'm feeling hungry. 有些天我觉得饿</br>And then I want to eat them all. 然后我就想把它们全都吃掉</br>Fruits, fruits, fruits. 水果、水果、水果</br>Add more fruits! 再多加一些水果"
+            },
+            {
+                "_comment":"食物第三节课",
+                "type": "title",
+                "content": "3. Simple Simon",
+                "fontsize":".55rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_food.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/d723152153d64382b3dab9bc1db91455/Simplesimon.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "Simple Simon这首歌严格意义来讲不算是一首特别彻底的“食物”歌。但是因为旋律大家非常熟悉，歌词也很押韵，也涉及到了要买吃的这个事情，所以就把这首歌当成一个补充的内容给大家。</br>这首歌其实真的很无厘头，讲的是有一个叫做Simple Simon的人（很多人把这个simple在这里翻译成头脑简单）。有一些人肯定就觉得这个Simon就是不想掏钱，但是根据很古老的版本的这首歌的歌词来看Simon其实就是傻乎乎。 "
+            },
+            {
+                "type": "song",
+                "content": "Simple Simon met a pie man going to the fair. 傻乎乎的西蒙遇到一个去集市上卖馅饼的人</br>Said Simple Simon to the pie man, 傻乎乎的西蒙对这个卖馅饼的人说：</br>\"Let me taste your ware.\" “让我尝一下你的东西。”</br>Says the man to Simple Simon, 这个人对傻乎乎的西蒙说：</br>\"Do you mean to pay?\" “你会付钱吗？”</br>Says Simon,\"Yes,of course I do,\" 西蒙说：“我当然会付钱。”</br>And then he ran away. 然后他就跑开了。"
+            },
+            {
+                "_comment":"食物第四节课",
+                "type": "title",
+                "content": "4. Food-word",
+                "font-size":".5rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_food.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/fcb47eca2e684adba560295f288ca817/foodword.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这个动画片讲的是怎么样做pizza。出现了很多拓展的词汇：</br>ham 火腿；corn玉米；</br>meat肉；cheese奶酪；</br>mushroom蘑菇；pepper青椒；</br>onion洋葱</br>爸爸妈妈可以带小朋友在生活中认识一下。"
+            },
+            {
+                "type": "song",
+                "content": "Pizza, pizza, I love pizza. 披萨，披萨，我爱披萨</br>Let's make some pizza. 让我们一起来做些披萨</br>Yum yum ham. 好好吃的火腿</br>Yum yum corn. 好好吃的玉米</br>Yum yum meat. 好好吃的肉</br>Yum yum cheese. 好好吃的奶酪</br>Yum yum mushroom. 好好吃的蘑菇</br>Yum yum pepper. 好好吃的辣椒</br>Yum yum onion. 好好吃的洋葱</br>Let's make some pizza. 让我们一起来做些披萨</br>Oh delicious! I love all! 喔，真好吃！我爱这些披萨！</br>Dance together. 一起跳舞</br>Let's make some pizza. 让我们一起来做些披萨"
+            }
+        ]
+    },
+    {
+        "_comment":"人物",
+        "id":5,
+        "lessoncontent": [
+            {
+                "_comment":"人物第一节课",
+                "type": "title",
+                "content": "1. Baby Shark",
+                "fontsize":"",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_people.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/676244e14b6c43d88c1b99d4b7153656/Babyshark.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌简直就是神曲！！！我们在宝玩的分龄体系课程 —— 草莓班当中讲过，神曲啊神曲啊神曲。基本上就是所有的孩子都爱到要死。"
+            },
+            {
+                "type": "song",
+                "content": "Baby shark, doo, doo, doo, doo, doo, doo. 鲨鱼宝宝，嘟嘟嘟嘟嘟嘟</br>Baby shark, doo, doo, doo, doo, doo, doo. 鲨鱼宝宝，嘟嘟嘟嘟嘟嘟</br>Baby shark, doo, doo, doo, doo, doo, doo. 鲨鱼宝宝，嘟嘟嘟嘟嘟嘟</br>Baby shark! 鲨鱼宝宝</br>Mommy shark, doo, doo, doo, doo, doo, doo. 鲨鱼妈妈，嘟嘟嘟嘟嘟嘟</br>Mommy shark, doo, doo, doo, doo, doo, doo. 鲨鱼妈妈，嘟嘟嘟嘟嘟嘟</br>Mommy shark, doo, doo, doo, doo, doo, doo. 鲨鱼妈妈，嘟嘟嘟嘟嘟嘟</br>Mommy shark! 鲨鱼妈妈</br>Daddy shark, doo, doo, doo, doo, doo, doo. 鲨鱼爸爸，嘟嘟嘟嘟嘟嘟</br>Daddy shark, doo, doo, doo, doo, doo, doo. 鲨鱼爸爸，嘟嘟嘟嘟嘟嘟</br>Daddy shark, doo, doo, doo, doo, doo, doo. 鲨鱼爸爸，嘟嘟嘟嘟嘟嘟</br>Daddy shark! 鲨鱼爸爸</br>Grandma shark, doo, doo, doo, doo, doo, doo. 鲨鱼奶奶，嘟嘟嘟嘟嘟嘟</br>Grandma shark, doo, doo, doo, doo, doo, doo. 鲨鱼奶奶，嘟嘟嘟嘟嘟嘟</br>Grandma shark, doo, doo, doo, doo, doo, doo. 鲨鱼奶奶，嘟嘟嘟嘟嘟嘟</br>Grandma shark! 鲨鱼奶奶</br>Grandpa shark, doo, doo, doo, doo, doo, doo. 鲨鱼爷爷，嘟嘟嘟嘟嘟嘟</br>Grandpa shark, doo, doo, doo, doo, doo, doo. 鲨鱼爷爷，嘟嘟嘟嘟嘟嘟</br>Grandpa shark, doo, doo, doo, doo, doo, doo. 鲨鱼爷爷，嘟嘟嘟嘟嘟嘟</br>Grandpa shark! 鲨鱼爷爷</br>Let's go hunt, doo, doo, doo, doo, doo, doo. 去打猎，嘟嘟嘟嘟嘟嘟</br>Let's go hunt, doo, doo, doo, doo, doo, doo. 去打猎，嘟嘟嘟嘟嘟嘟</br>Let's go hunt, doo, doo, doo, doo, doo, doo. 去打猎，嘟嘟嘟嘟嘟嘟</br>Let's go hunt! 去打猎</br>Run away, doo, doo, doo, doo, doo, doo. 跑开，嘟嘟嘟嘟嘟嘟</br>Run away, doo, doo, doo, doo, doo, doo. 跑开，嘟嘟嘟嘟嘟嘟</br>Run away, doo, doo, doo, doo, doo, doo. 跑开，嘟嘟嘟嘟嘟嘟</br>Run away! 跑开</br>Safe at last, doo, doo, doo, doo, doo, doo. 安全啦，嘟嘟嘟嘟嘟嘟</br>Safe at last, doo, doo, doo, doo, doo, doo. 安全啦，嘟嘟嘟嘟嘟嘟</br>Safe at last, doo, doo, doo, doo, doo, doo. 安全啦，嘟嘟嘟嘟嘟嘟</br>Safe at last! 安全啦</br>It's the end, doo, doo, doo, doo, doo, doo. 结束啦，嘟嘟嘟嘟嘟嘟</br>It's the end, doo, doo, doo, doo, doo, doo. 结束啦，嘟嘟嘟嘟嘟嘟</br>It's the end, doo, doo, doo, doo, doo, doo. 结束啦，嘟嘟嘟嘟嘟嘟</br>It's the end! 结束啦</br>"
+            },
+            {
+                "_comment":"人物第二节课",
+                "type": "title",
+                "content": "2. Family Song",
+                "fontsize":"",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_people.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/bde66b8a78b1477380fc2b60f569d7da/FamilySong.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌的简笔画风格我觉得挺有意思的。而且旋律感觉很温暖。爸爸妈妈可以拿着家里的照片指着让小朋友认。然后说：My family. I love my family."
+            },
+            {
+                "type": "song",
+                "content": "Mommy and daddy. 妈妈和爸爸</br>Sister and brother. 姐姐和哥哥</br>Grandma and grandpa. 奶奶和爷爷</br>My family. 我的家人</br>Mommy and me. 妈妈和我</br>Daddy and me. 爸爸和我</br>My family. 我的家人</br>I love my family. 我爱我的家人</br>Sister and me. 姐姐和我</br>Brother and me. 哥哥和我</br>My family. 我的家人</br>I love my family. 我爱我的家人</br>Grandma and me. 奶奶和我</br>Grandpa and me. 爷爷和我</br>My family. 我的家人</br>I love my family. 我爱我的家人</br>I love my family. 我爱我的家人</br>I love my family. 我爱我的家人</br>And my family loves me! 我的家人爱我</br>"
+            }
+        ]
+    },
+    {
+        "_comment":"数字",
+        "id":6,
+        "lessoncontent": [
+            {
+                "_comment":"数字第一节课",
+                "type": "title",
+                "content": "1.数字学习1-5",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_number.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/a21cf64f2c42486b8aee81e27f994a0e/numbershuzi12345.mp4"
+            }, {
+                "_comment":"数字第二节课",
+                "type": "title",
+                "content": "2.数字学习6-10",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_number.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/e2d1e2b8981d470fa3a7224ad0f39ac8/nembershuzi678910.mp4"
+            }
+        ]
+    },
+    {
+        "_comment":"颜色",
+        "id":7,
+        "lessoncontent": [
+            {
+                "_comment":"颜色第一节课",
+                "type": "title",
+                "content": "1. I See Something Blue",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_color.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/ab0a0b0cc3b24a49a9b757bab9dc381e/Iseesometingblue.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "I see something+颜色.</br>Can you see something+颜色</br>"
+            },
+            {
+                "type": "song",
+                "content": "Blue! I see something blue. 蓝色！我看见有个东西是蓝色</br>Blue! I see something blue. 蓝色！我看见有个东西是蓝色</br>Blue, blue, blue, blue. 蓝色、蓝色、蓝色、蓝色</br>I see something blue. 蓝色！我看见有个东西是蓝色</br>Find something blue. 找找蓝色的东西</br>Yellow! I see something yellow. 黄色！我看见有个东西是黄色</br>Yellow! I see something yellow. 黄色！我看见有个东西是黄色</br>Yellow, yellow. 黄色、黄色</br>I see something yellow. 我看见有个东西是黄色</br>Find something yellow. 找找黄色的东西</br>Red! I see something red. 红色！我看见有个东西是红色</br>Red! I see something red. 红色！我看见有个东西是红色</br>Red, red, red, red. 红色、红色、红色、红色</br>I see something red. 我看见有个东西是红色</br>Find something red. 找找红色的东西</br>Purple! I see something purple. 紫色！我看见有个东西是紫色</br>Purple! I see something purple. 紫色！我看见有个东西是紫色</br>Purple, purple. 紫色、紫色</br>I see something purple. 我看见有个东西是紫色</br>Find something purple. 找找紫色的东西</br>Blue, yellow, red, purple. 蓝色、黄色、红色、紫色</br>I see colors everywhere. 我在每个地方都能看到颜色</br>"
+            },
+            {
+                "_comment":"颜色第二节课",
+                "type": "title",
+                "content": "2. I See Something Pink",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_color.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/69b0a1aa05b24ebf837e4ce0e7d59a6c/Iseesomethingpink.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "I see something+颜色.</br>Can you see something+颜色?</br>"
+            },
+            {
+                "type": "song",
+                "content": "Pink! I see something pink. 粉色！我看见有个东西是粉色</br>Pink! I see something pink. 粉色！我看见有个东西是粉色</br>Pink, pink, pink, pink. 粉色、粉色、粉色、粉色</br>I see something pink. 粉色！我看见有个东西是粉色</br>Find something pink. 找找粉色的东西</br>Orange! I see something orange. 橙色！我看见有个东西是橙色</br>Orange! I see something orange. 橙色！我看见有个东西是橙色</br>Orange, orange. 橙色、橙色</br>I see something orange. 我看见有个东西是橙色</br>Find something orange. 找找橙色的东西</br>Brown! I see something brown. 棕色！我看见有个东西是棕色</br>Brown! I see something brown. 棕色！我看见有个东西是棕色</br>Brown, brown, brown, brown. 棕色、棕色、棕色、棕色</br>I see something brown. 我看见有个东西是棕色</br>Find something brown. 找找棕色的东西</br>Green! I see something green. 绿色！我看见有个东西是绿色</br>Green! I see something green. 绿色！我看见有个东西是绿色</br>Green, green, green, green. 绿色、绿色</br>I see something green. 我看见有个东西是绿色</br>Find something green. 找找绿色的东西</br>Pink, orange, brown, green. 粉色、橙色、棕色、绿色</br>I see colors everywhere. 我在每个地方都能看到颜色</br>"
+            },
+            {
+                "_comment":"颜色第三节课",
+                "type": "title",
+                "content": "3. The Goose That Laid Golden Eggs",
+                "fontsize":".3rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_color.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/a07e28941e054adba8c6f902df923da3/thegoosethatlaidgoldegg.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这个视频是一个小故事。讲的故事估计好多爸爸妈妈之前或多或少的听说过某一个版本。有一个农民养了一只鹅(goose)。这只鹅每天生一个金蛋(The goose laid one golden egg every day。 lay+egg表示生蛋，lay的过去式是laid)。他因为这些金蛋，变得非常有钱(rich)，但是同时很贪婪(greedy)。于是他就把鹅的肚子剖开(cut open the goose's belly)，想在鹅的肚子(belly)里面把所有的蛋一口气拿到。结果鹅的肚子里面什么都没有。他非常后悔。</br>故事里面对于egg用了gold和golden两个词来表示金色的， golden egg / The egg is gold. 通常来讲，这两个词有很多共性： 他们都可以表示金色的。也都可以表示金子做的（虽然这个场景下gold使用得更多） 但是，表示金子这个东西的时候，只能用gold； 同时，只有golden，也可以表示“珍贵的”。</br>"
+            },
+            {
+                "type": "song",
+                "content": "The goose that laid golden eggs 下金蛋的鹅</br>One day, a poor farmer suddenly got a goose. 一天，一个贫穷的农夫突然得到了一只鹅</br>It was a special goose that laid a golden egg every day. 这只鹅很不寻常，它每天都会下一个金蛋</br>\"My heavens! This is unbelievable!\" \"天呐！这真难以置信！\"</br>\"The egg is gold! Ha, ha, ha!\" \"这竟然是金蛋！哈哈哈！\"</br>The poor farmer decided to sell the eggs. 这个贫穷的农夫决定卖这些金蛋</br>And, soon after, he became rich. 不久后，他变得富有了</br>\"That’s a good goose!\" \"那是一只好鹅\"</br>\"Keep laying those golden eggs!\" \"继续下金蛋吧！\"</br>The farmer became very greedy. 农夫变得十分贪婪</br>He was now already rich. 他现在已经很富有了</br>But, he wanted to become even richer. 但是，他还想变得更富有</br>\"How come the goose lays only one egg a day?\" “这只鹅怎么会每天只下一个蛋呢？\"</br>\"There’s no way I’m going to become really rich like this.\" \"像这样下去，我将不会变得真正富有。\"</br>\"There must be a way to collect a bunch of golden eggs at one time.\" \"一定有一个办法可以收集到一大堆的金蛋。\"</br>The farmer became so greedy that all he thought about was getting richer. 农夫如此贪婪，以至于他每天都在幻想变得更富有</br>\"Ooh! I bet there are a bunch of golden eggs inside the goose’s belly.\" \"噢！我敢说这只鹅的肚子里一定有一大堆金蛋。\"</br>\"I bet if I cut open its belly, I could get them all out at once!\" \"我敢说如果我切开它的肚子，我就能一次把它们全部拿出来！\"</br>So, the greedy farmer cut open the goose’s belly. 所以，贪婪的农夫切开了这只鹅的肚子</br>But, there were no golden eggs inside. 但是，里面一个金蛋都没有</br>In fact, there was nothing inside. 事实上，里面什么都没有</br>\"Oh, how could I have been so foolish?\" \"噢！我怎么会这么愚蠢呢？\"</br>\"My greed has caused me to lose everything now!\" \"我的贪婪让我现在失去了所有！\"</br>At that moment, the farmer understood what he had done. 在那一刻，农夫才明白自己都做了些什么</br>But, it was too late. 但是，一切都太晚了</br>Because the goose was now dead and there were no more golden eggs. 因为这只鹅现在已经死了，再也没有金蛋了</br>\"Oh... my poor eggs... \" \"噢...我可怜的蛋...\""
+            }
+        ]
+    },
+    {
+        "_comment":"交通工具",
+        "id":8,
+        "lessoncontent": [
+            {
+                "_comment":"交通工具第一节课",
+                "type": "title",
+                "content": " 1.The Wheels on the Bus",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_traffic.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/c4872a183c0743ce8828c2f796811aa8/thewheelsonthebus.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌简直也是所有孩子，真的是所有孩子，都听过，都喜欢，都容易跟着唱的歌。歌词有很多段，不同的版本也有不同的歌词。 "
+            },
+            {
+                "type": "song",
+                "content": "The wheels on the bus go round and round, round and round, round and round. The wheels on the bus go round and round, round and round. 公交车的轮子转啊转、转啊转、转啊转。公交车的轮子转啊转，转啊转。</br>The door on the bus goes open and shut, open and shut, open and shut. The door on the bus goes open and shut, open and shut. 公交车的门开了关、开了关、开了关。公交车的门开了关、开了关。</br>The wipers on the bus go swish swish swish, swish swish swish, swish swish swish. The wipers on the bus go swish swish swish, swish swish swish. 公交车的雨刮器唰唰唰、唰唰唰、唰唰唰。公交车的雨刮器唰唰唰、唰唰唰。</br>The horn on the bus goes beep beep beep, beep beep beep, beep beep beep. The horn on the bus goes beep beep beep, beep beep beep. 公交车的喇叭哔哔哔、哔哔哔、哔哔哔。公交车的喇叭哔哔哔、哔哔哔。</br>The people on the bus go up and down, up and down, up and down. The people on the bus go up and down, up and down. 公交车里的人一上一下、一上一下、一上一下。公交车里的人一上一下、一上一下。</br>The babies on the bus go wah wah wah, wah wah wah, wah wah wah. The babies on the bus go wah wah wah, wah wah wah. 公交车里的宝宝哇哇哇、哇哇哇、哇哇哇。公交车里的宝宝哇哇哇、哇哇哇。</br>The mommies on the bus go shh shh shh, shh shh shh, shh shh shh. The daddies on the bus go shh shh shh, shh shh shh. 公交车里的妈妈说嘘嘘嘘、嘘嘘嘘、嘘嘘嘘。公交车里的爸爸说嘘嘘嘘、嘘嘘嘘。</br>"
+            },
+            {
+                "_comment":"交通工具第二节课",
+                "type": "title",
+                "content": "2.Down by the Station",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_traffic.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/20e364314e7449f7bbf7bf178493bf1d/downbythestation.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "这首歌比较常见的有Down at the station或者Down by the station，哪个版本经常听，或者哪个版本读得通顺都可以。</br>这里给大家解释一下down这个词。好多的儿歌或者是日常用语里面都有down, 在我们学习英语的几十年的生涯当中，down都表示“下面”。 那为什么这里要用down at the station呢？（还有儿歌是Down in the jungle; Down by the bay） 给大家解释一下：</br>Down表示一个地方离此时此刻在的位置有一些距离，或者是用来表示一个比较中心的位置。 比如：</br>I'm going down to the shop to buy some milk.</br>我要去商店里买一些牛奶。（这里的down是翻译不出来的，不用down这个词也是完全正确的，所以就是一个口语用法，表示一个位置关系）</br>He has a house down by the harbor.</br>他在港口有一座房子。 (这里的down也是翻译不出来的，但是通常的理解可以认为他在港口的房子离说话人所在的地方有一段距离)</br>Down by the station early in the morning. 一大早来到车站</br>See the little puffer bellies all in a row. 看看小火车排成排</br>See the engine driver pull the little handle. 看看司机拉小把手</br>\"Chug, chug, toot, toot!\" Off we go! “咔嚓、咔嚓、嘟嘟、嘟嘟！”我们出发啦"
+            },
+            {
+                "type": "song",
+                "content": "Down by the station early in the morning. 一大早来到车站</br>See the little puffer bellies all in a row. 看看小火车排成排</br>See the engine driver pull the little handle. 看看司机拉小把手</br>“Chug, chug, toot, toot!” Off we go! “咔嚓、咔嚓，嘟嘟、嘟嘟！”我们出发啦"
+            }
+        ]
+    },
+    {
+        "_comment":"动作",
+        "id":9,
+        "lessoncontent": [
+            {
+                "_comment":"动作第一节课",
+                "type": "title",
+                "content": "Walking Walking",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_action.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-ld/6a82c9c820804351b1cc501519a1db1a/Walkingwalking.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首简单又好玩的歌，又是两只老虎的曲调。强烈强烈强烈推荐！！！！！在魔词学院的培训课程里面也出现了关于这首歌的讲解哦，我们再来复习一下小朋友的亲身演绎视频吧"
+            },
+            {
+                "type": "song",
+                "content": "Walking, walking, walking, walking. 走啊走，走啊走</br>Hop, hop, hop. Hop, hop, hop. 跳啊跳，跳啊跳</br>Running, running, running. Running, running, running. 跑啊跑，跑啊跑</br>Now let's stop. 现在，让我们停下来</br>Up and down. 起身，然后蹲下</br>"
+            }
+        ]
+    },
+    {
+        "_comment":"自然",
+        "id":10,
+        "lessoncontent": [
+            {
+                "_comment":"自然第一节课",
+                "type": "title",
+                "content": "1. Mr. Golden Sun",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_natrual.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/c4d05a69b69f4515b119609b2b9c87dc/Mrgoldensun.mp4"
+            },
+            {
+                "type": "pattern",
+                "content": "这两句话在生活当中爸爸妈妈都可以用起来，或者适当改编一下：</br>Mr. Golden Sun, please shine down on me.</br>Mr. Golden Sun (is) hiding behind the tree.</br>按照句子来讲需要加上is，但是很多时候因为唱歌的时候受到音节的限制，会省略一些不影响理解的词。那么我们还可以适当改编一下，如果是阴天，看不到太阳，爸爸妈妈可以说：</br>Where is Mr. Sun?</br>太阳先生在哪里？</br>回答可以是：</br>Mr. Sun is hiding behind the clouds.</br>太阳先生藏在云后面。</br>"
+            },
+            {
+                "type": "song",
+                "content": "Oh, Mister Sun, Sun, Mister Golden Sun. 噢，太阳先生，金太阳先生</br>Please shine down on me. 请你照耀我</br>Oh, Mister Sun, Sun, Mister Golden Sun. 噢，太阳先生，金太阳先生</br>Hiding behind a tree. 藏在一棵树后面</br>These little children are asking you. 这些小朋友们都在问你</br>Please come out so we can play with you. 请你出来，我们就可以和你玩啦</br>Oh, Mister Sun, Sun, Mister Golden Sun. 噢，太阳先生，金太阳先生</br>Please shine down on me. 请你照耀我</br>Oh, Mister Sun, Sun. 噢，太阳先生</br>Thanks for shining down now, Sun. 谢谢你照耀我们，太阳</br>Oh, Mister Sun, Sun. 噢，太阳先生</br>Everything is fine now, Sun. 现在一切都好了</br>Oh, Mister Sun. 噢，太阳先生</br>"
+            },
+            {
+                "_comment":"自然第二节课",
+                "type": "title",
+                "content": "2. Rain on the Green Grass",
+                "fontsize":".4rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_natrual.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/a02118d8c8634bdd8e248b20087804a9/Rainonthegreengrass.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "提示~ housetop就是一个词哦，其实是不用加空格的。表示屋顶。下雨天可以带着宝宝趴在窗户上面看看雨到底都能下到什么地方。"
+            },
+            {
+                "type": "song",
+                "content": "Rain on the green grass and rain on the tree. 雨落在青草上，雨落在树上</br>Rain on the housetop but not on me. 雨落在屋顶上，但是没有落在我身上</br>"
+            },
+            {
+                "_comment":"自然第三节课",
+                "type": "title",
+                "content": "3. How's the Weather",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_natrual.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/87fa1608ace94277942433fdf5c4e645/Howstheweather.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这个短语已经可以和宝宝提问了，尤其是如果可以看到Mr. Sun的时候强调一下It's sunny. 孩子是很容易可以理解的：</br>How’s the weather today?</br>Is it sunny, is it rainy, is it windy, is it snowy?</br>"
+            },
+            {
+                "type": "song",
+                "content": "How’s the weather? 天气怎么样</br>It's sunny. 是晴天</br>It's sunny today. 今天是晴天</br>How’s the weather? 天气怎么样</br>It's rainy. 是雨天</br>It's rainy today. 今天是雨天</br>How’s the weather? 天气怎么样</br>It's snowy. 是下雪天</br>It's snowy today. 今天是下雪天</br>How’s the weather? 天气怎么样</br>It's cloudy. 是阴天</br>It's cloudy today. 今天是阴天</br>How’s the weather? 天气怎么样</br>It's windy. 是刮风天</br>It's windy today. 今天是刮风天</br>"
+            }
+        ]
+    },
+    {
+        "_comment":"对比",
+        "id":11,
+        "lessoncontent": [
+            {
+                "_comment":"对比第一节课",
+                "type": "title",
+                "content": "1. Big and Small",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_contrast.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-hd/65e89cd7d22a44fea1dbcc88afce5a4e/Bigsmallsong.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌当中出现了很多big和small的对比组合。画面对比感很强烈，尤其是The elephant is big. The mouse is small. 完全可以搭配着我们对比词的卡片，跟孩子复习哦~~"
+            },
+            {
+                "type": "song",
+                "content": "The elephant is big. 大象大</br>And the mouse is small. 老鼠小</br>The tree is big. 树大</br>And the ant is small. 蚂蚁小</br>The boy is big. 男孩大</br>And the ball is small. 球小</br>The flower is big. 花儿大</br>And the bee is small. 蜜蜂小</br>The earth is big. 地球大</br>And the men are small. 人小</br>And that's what make us all. 这就组成了我们</br>"
+            },
+            {
+                "_comment":"对比第二节课",
+                "type": "title",
+                "content": "2. Opposite Song",
+                "fontsize":".45rem",
+                "icon_src":"http://live.babyfs.cn/web/H5/cjw/2017/basicword/icon_contrast.png"
+            },
+            {
+                "type": "video",
+                "src": "http://live.babyfs.cn/Act-ss-mp4-sd/d1888185aab9416baa666e1e052c5fb9/OppositeSong.mp4"
+            },
+            {
+                "type": "recommend",
+                "content": "这首歌非常简单，没有多余的干扰，但是视频做得很形象。short, tall（矮、高）这样的动作完全可以用手势或者身体语言表现出来。slow、fast（慢、快）完全可以用说话的速度变化体现出来，能够很好的帮助孩子们记忆。"
+            },
+            {
+                "type": "song",
+                "content": "happy, sad 快乐、难过</br>short, tall 矮、高</br>big, small 大、小</br>slow, fast 慢、快</br>hot, cold 热、冷</br>"
+            }
+        ]
+    }
+
+]

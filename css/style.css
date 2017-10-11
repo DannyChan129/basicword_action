@@ -1,0 +1,1600 @@
+@import "global.css";
+/* loading */
+/* loading */
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#loading {
+  display: block;
+  background: #1a1a1a url(http://live.babyfs.cn/web/H5/wjy/drawflowers20170303/loading.gif) center no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+}
+#loading p {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #999;
+  z-index: 999999999;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(http://live.babyfs.cn/web/H5/cjw/2017/basicword/nav_bg.jpg) top center no-repeat;
+  background-size: 100% 100%;
+}
+.nav img {
+  position: absolute;
+  width: 21.33%;
+  height: 11.99%;
+}
+.nav img:nth-child(1) {
+  left: 11.2%;
+  top: 34.4%;
+}
+.nav img:nth-child(2) {
+  left: 39.6%;
+  top: 34.4%;
+}
+.nav img:nth-child(3) {
+  left: 68%;
+  top: 34.4%;
+}
+.nav img:nth-child(4) {
+  left: 11.2%;
+  top: 49.55%;
+}
+.nav img:nth-child(5) {
+  left: 39.6%;
+  top: 49.55%;
+}
+.nav img:nth-child(6) {
+  left: 68%;
+  top: 49.55%;
+}
+.nav img:nth-child(7) {
+  left: 11.2%;
+  top: 65.36%;
+}
+.nav img:nth-child(8) {
+  left: 39.6%;
+  top: 65.36%;
+}
+.nav img:nth-child(9) {
+  left: 68%;
+  top: 65.36%;
+}
+.nav img:nth-child(10) {
+  left: 11.2%;
+  top: 81%;
+}
+.nav img:nth-child(11) {
+  left: 39.6%;
+  top: 81%;
+}
+/*theme*/
+.animinal {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*故事简介*/
+}
+.animinal .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #7acdf2;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.animinal .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.animinal .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.animinal .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.animinal .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #7acdf2;
+}
+.animinal .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.animinal .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #7acdf2;
+  border-radius: 0 6px 6px 6px;
+}
+.animinal .video video {
+  width: 100%;
+  height: 100%;
+}
+.animinal .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.animinal .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #7acdf2;
+}
+.animinal .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.animinal .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #7acdf2;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.animinal .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.animinal .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #7acdf2;
+}
+.animinal .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.animinal .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #7acdf2;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.animinal .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.animinal .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #7acdf2;
+}
+.animinal .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.animinal .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #7acdf2;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.body {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*故事简介*/
+}
+.body .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #ed7980;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.body .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.body .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.body .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.body .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ed7980;
+}
+.body .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.body .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #ed7980;
+  border-radius: 0 6px 6px 6px;
+}
+.body .video video {
+  width: 100%;
+  height: 100%;
+}
+.body .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.body .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ed7980;
+}
+.body .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.body .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ed7980;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.body .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.body .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ed7980;
+}
+.body .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.body .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ed7980;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.body .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.body .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ed7980;
+}
+.body .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.body .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ed7980;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.dailylife {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.dailylife .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #b7d32f;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.dailylife .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.dailylife .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.dailylife .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.dailylife .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #b7d32f;
+}
+.dailylife .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.dailylife .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #b7d32f;
+  border-radius: 0 6px 6px 6px;
+}
+.dailylife .video video {
+  width: 100%;
+  height: 100%;
+}
+.dailylife .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.dailylife .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #b7d32f;
+}
+.dailylife .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.dailylife .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #b7d32f;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.dailylife .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.dailylife .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #b7d32f;
+}
+.dailylife .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.dailylife .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #b7d32f;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.dailylife .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.dailylife .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #b7d32f;
+}
+.dailylife .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.dailylife .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #b7d32f;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.food {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.food .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #f6ac2b;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.food .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.food .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.food .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.food .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #f6ac2b;
+}
+.food .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.food .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #f6ac2b;
+  border-radius: 0 6px 6px 6px;
+}
+.food .video video {
+  width: 100%;
+  height: 100%;
+}
+.food .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.food .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #f6ac2b;
+}
+.food .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.food .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #f6ac2b;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.food .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.food .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #f6ac2b;
+}
+.food .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.food .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #f6ac2b;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.food .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.food .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #f6ac2b;
+}
+.food .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.food .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #f6ac2b;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.people {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.people .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #ffe100;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.people .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.people .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.people .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.people .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffe100;
+}
+.people .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.people .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #ffe100;
+  border-radius: 0 6px 6px 6px;
+}
+.people .video video {
+  width: 100%;
+  height: 100%;
+}
+.people .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.people .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffe100;
+}
+.people .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.people .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ffe100;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.people .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.people .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffe100;
+}
+.people .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.people .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ffe100;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.people .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.people .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffe100;
+}
+.people .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.people .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ffe100;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.number {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.number .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #3962ad;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.number .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.number .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.number .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.number .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #3962ad;
+}
+.number .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.number .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #3962ad;
+  border-radius: 0 6px 6px 6px;
+}
+.number .video video {
+  width: 100%;
+  height: 100%;
+}
+.number .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.number .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #3962ad;
+}
+.number .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.number .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #3962ad;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.number .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.number .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #3962ad;
+}
+.number .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.number .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ffe100;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.number .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.number .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #3962ad;
+}
+.number .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.number .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #3962ad;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.color {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.color .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #ea5350;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.color .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.color .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.color .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.color .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ea5350;
+}
+.color .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.color .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #ea5350;
+  border-radius: 0 6px 6px 6px;
+}
+.color .video video {
+  width: 100%;
+  height: 100%;
+}
+.color .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.color .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ea5350;
+}
+.color .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.color .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ea5350;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.color .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.color .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ea5350;
+}
+.color .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.color .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ea5350;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.color .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.color .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ea5350;
+}
+.color .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.color .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ea5350;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.traffic {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.traffic .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #66b67f;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.traffic .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.traffic .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.traffic .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.traffic .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #66b67f;
+}
+.traffic .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.traffic .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #66b67f;
+  border-radius: 0 6px 6px 6px;
+}
+.traffic .video video {
+  width: 100%;
+  height: 100%;
+}
+.traffic .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.traffic .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #66b67f;
+}
+.traffic .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.traffic .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #66b67f;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.traffic .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.traffic .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #66b67f;
+}
+.traffic .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.traffic .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #66b67f;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.traffic .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.traffic .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #66b67f;
+}
+.traffic .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.traffic .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #66b67f;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.action {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.action .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #ee7835;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.action .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.action .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.action .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.action .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ee7835;
+}
+.action .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.action .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #ee7835;
+  border-radius: 0 6px 6px 6px;
+}
+.action .video video {
+  width: 100%;
+  height: 100%;
+}
+.action .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.action .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ee7835;
+}
+.action .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.action .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ee7835;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.action .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.action .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ee7835;
+}
+.action .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.action .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ee7835;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.action .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.action .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #ee7835;
+}
+.action .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.action .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #ee7835;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.natrual {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.natrual .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #04aa72;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.natrual .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.natrual .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.natrual .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.natrual .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #04aa72;
+}
+.natrual .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.natrual .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #04aa72;
+  border-radius: 0 6px 6px 6px;
+}
+.natrual .video video {
+  width: 100%;
+  height: 100%;
+}
+.natrual .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.natrual .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #04aa72;
+}
+.natrual .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.natrual .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #04aa72;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.natrual .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.natrual .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #04aa72;
+}
+.natrual .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.natrual .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #04aa72;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.natrual .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.natrual .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #04aa72;
+}
+.natrual .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.natrual .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #04aa72;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.contrast {
+  display: none;
+  width: 100%;
+  position: absolute;
+  /*标题*/
+  /*视频*/
+  /*句型*/
+  /*歌词*/
+  /*故事简介*/
+}
+.contrast .title {
+  width: 100%;
+  height: 1.12rem;
+  background-color: #5ea8dd;
+  padding: .16rem .48rem;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+.contrast .title .title_icon {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+}
+.contrast .title span {
+  font-family: "微软雅黑";
+  font-size: .65rem;
+  color: white;
+  margin-left: 1.2rem;
+  line-height: .8rem;
+}
+.contrast .video {
+  margin: 0 .48rem .5rem .48rem;
+}
+.contrast .video .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #5ea8dd;
+}
+.contrast .video span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.contrast .video .videobox {
+  width: 6.55rem;
+  height: 3.71rem;
+  border: 3px solid #5ea8dd;
+  border-radius: 0 6px 6px 6px;
+}
+.contrast .video video {
+  width: 100%;
+  height: 100%;
+}
+.contrast .pattern {
+  margin: 0 .48rem .5rem .48rem;
+}
+.contrast .pattern .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #5ea8dd;
+}
+.contrast .pattern span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.contrast .pattern .patternbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #5ea8dd;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.contrast .song {
+  margin: 0 .48rem .8rem .48rem;
+}
+.contrast .song .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #5ea8dd;
+}
+.contrast .song span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: 0 .5rem;
+  line-height: .47rem;
+}
+.contrast .song .songbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #5ea8dd;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+.contrast .recommend {
+  margin: 0 .48rem .8rem .48rem;
+}
+.contrast .recommend .bluecolor {
+  width: 1.7rem;
+  height: .47rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #5ea8dd;
+}
+.contrast .recommend span {
+  font-family: "微软雅黑";
+  font-size: .3rem;
+  color: white;
+  margin: .12rem .21rem;
+  line-height: .47rem;
+}
+.contrast .recommend .recommendbox {
+  font-size: .25rem;
+  font-family: "微软雅黑";
+  color: #77645d;
+  width: 5.85rem;
+  border: 3px solid #5ea8dd;
+  border-radius: 0 6px 6px 6px;
+  padding: .35rem;
+  line-height: .45rem;
+}
+/*toup*/
+.toup {
+  text-decoration: none;
+  color: #fff;
+  display: none;
+  width: 0.7rem;
+  height: .7rem;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  background: #5e4a4a;
+  font-size: .12rem;
+  line-height: .7rem;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+.tonav {
+  text-decoration: none;
+  display: none;
+  color: #fff;
+  width: 0.7rem;
+  height: 1.2rem;
+  position: fixed;
+  right: 0;
+  bottom: 40%;
+  background: #5e4a4a;
+  font-size: .12rem;
+  line-height: .6rem;
+  text-align: center;
+}
